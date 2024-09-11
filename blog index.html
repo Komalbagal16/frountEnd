@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Mea+Culpa&display=swap"
+        rel="stylesheet">
+    <style>
+        body{
+            background-color: rgb(163, 255, 247);
+            border: 2px solid black;
+        }
+        header{
+            border: 2px solid black;
+        }
+        .logo{
+            display: inline-block;
+            font-family:Cedarville Cursive;
+            padding: 30px;
+        }
+        h1 {
+            display: inline-block;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 900;
+            font-family: Mea Culpa;
+            margin: 0px 410px;
+        }
+        .btn{
+            display: inline-block;
+            padding: 20px;
+        }
+        button{
+            padding: 10px;
+            border-radius: 10px;
+        }
+        nav{
+            display: inline-block;
+            border: 2px solid black;
+            padding: 20px;
+            height: 130vh;
+            width: 20vw;
+        }
+        li{
+            list-style-type: none;
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        a{
+            text-decoration: none;
+        }
+        a:link{
+            color: red;
+        }
+        a:hover{
+            color: green;
+        }
+        a:visited{
+            color: orange;
+        }
+        a:active{
+            color: wheat;
+            background-color: black;
+        }
+
+        #current{
+            font-size: 35px;
+            text-decoration: underline;
+        }
+
+
+        main{
+            
+            display: inline-block;
+            position: absolute;
+            height: 130vh;
+            padding: 30px;
+        }
+        span
+        {
+            font-family: Mea Culpa ;
+            font-size: 90px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            Logo
+        </div>
+        <h1>Headline</h1>
+        <div class="btn">
+            <button>SignUp</button>
+            <button>Login</button>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html" id="current">Home</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <span>
+            Welcome To My Website
+        </span>
+    </main>
+</body>
+
+</html>
